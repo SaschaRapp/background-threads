@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@react-bits/backgrounds": "github:reactbits/backgrounds",
+    "@react-bits/backgrounds": "https://github.com/reactbits/backgrounds.git",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
