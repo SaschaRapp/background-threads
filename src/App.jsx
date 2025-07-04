@@ -4,7 +4,7 @@ import './Threads.css';
 function App() {
   return (
     <div style={{ width: '100%', height: '100vh', position: 'fixed' }}>
-      <Threads amplitude={4.5} distance={1} enableMouseInteraction={true} />
+      <Threads amplitude={3} distance={2} enableMouseInteraction={true} />
     </div>
   );
 }
