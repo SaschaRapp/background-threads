@@ -1,10 +1,10 @@
-import React from "react";
-import Threads from "./Threads"; // Make sure the path matches
+import Threads from './Threads';
+import './Threads.css';
 
 function App() {
   return (
-    <div className="App">
-      <Threads />
+    <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+      <Threads amplitude={1} distance={0} enableMouseInteraction={true} />
     </div>
   );
 }
